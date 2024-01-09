@@ -1,0 +1,21 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Hey there 👋 I'm Chatbot. I'm here to help you create tickets on Jira through Slack."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Use the `Questionnaire` shortcut*. Type `/questionnaire` and press enter, followed by a Short *Questionnaire* prompt. When submitted I'll ask for some basic detail (if applicable). Try it out by using the `/questionnaire` command in this channel."
+			}
+		},
+		{
+			"type": "divider"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+    "type": "modal",
+    "callback_id": "add_question_modal",
+    "title": {
+        "type": "plain_text",
+        "text": "Add New Questions",
+        "emoji": true
+    },
+    "submit": {
+        "type": "plain_text",
+        "text": "Add",
+        "emoji": true
+    },
+    "close": {
+        "type": "plain_text",
+        "text": "Cancel",
+        "emoji": true
+    },
+    "blocks": [
+        {
+            "type": "input",
+            "block_id": "new_questions_input",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "new_questions_text",
+                "multiline": true
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Enter the new questions (one per line):",
+                "emoji": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "level_1": {
+    "description": "Level 1 - Automated Security Testing",
+    "details": [
+      "- Enroll the application in automated security testing tools.",
+      "- Ideal for low-sensitivity and low-criticality applications.",
+      "- Continuous scanning for basic vulnerabilities."
+    ]
+  },
+  "level_2": {
+    "description": "Level 2 - Freelance Security Assessment",
+    "details": [
+      "- Engagement of freelance security contractors for targeted assessments.",
+      "- Suitable for moderate sensitivity and criticality applications.",
+      "- Focus on more specific OWASP vulnerabilities."
+    ]
+  },
+  "level_3": {
+    "description": "Level 3 - Internal Security Team Review",
+    "details": [
+      "- Comprehensive review by the organization's internal security team.",
+      "- For applications with higher business criticality.",
+      "- In-depth testing including manual code review."
+    ]
+  },
+  "level_4": {
+    "description": "Level 4 - Boutique Security Firm Engagement",
+    "details": [
+      "- Hiring specialized boutique security firms for advanced testing.",
+      "- For high-criticality applications with significant data sensitivity.",
+      "- Extensive testing, including advanced penetration testing and risk analysis."
+    ]
+  },
+  "level_5": {
+    "description": "Level 5 - Full Scope Penetration Test by NCC",
+    "details": [
+      "- A fully scoped penetration test conducted by NCC Group or similar.",
+      "- For the most critical applications with potential high reputational impact.",
+      "- The most comprehensive security testing, adhering strictly to OWASP Top 10."
+    ]
+  }
+}

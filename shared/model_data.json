@@ -1,0 +1,358 @@
+{
+  "type": "modal",
+  "callback_id": "questionnaire_modal",
+  "title": {
+    "type": "plain_text",
+    "text": "Questionnaire",
+    "emoji": true
+  },
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit",
+    "emoji": true
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Cancel",
+    "emoji": true
+  },
+  "blocks": [
+    {
+      "type": "input",
+      "block_id": "validation_input_1",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_1"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Data Sensitivity: Does your application process personally identifiable information or sensitive data? (GDPR relevant)",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_2",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_2"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Internet Exposure: Is your application accessible via the internet?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_3",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_3"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Business Criticality: Is your application critical to your business operations?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_4",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_4"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Reputational Risk: Would a security breach have a significant reputational impact on your business?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_5",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_5"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Compliance Requirements: Does your application need to comply with specific regulatory requirements?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_6",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_6"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "User Base: Does your application serve a large number of users?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_7",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_7"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Transaction Handling: Does your application handle financial transactions or sensitive user activities?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_8",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_8"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Data Volume: Does your application process a large volume of data?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_9",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_9"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Third-Party Integrations: Does your application integrate with third-party services or APIs?",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "validation_input_10",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes",
+              "emoji": true
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No",
+              "emoji": true
+            },
+            "value": "no"
+          }
+        ],
+        "action_id": "validation_radio_action_10"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Previous Security Incidents: Has your application experienced security incidents in the past?",
+        "emoji": true
+      }
+    }
+  ]
+}
